@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class Arrays{
     public static void main(String[] args){
@@ -18,7 +18,7 @@ public class Arrays{
         // System.out.println(arr[0]); // null
 
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
         // int[] input = new int[5]; // array of size 5
         // input[0] = 1; // first element
@@ -57,7 +57,7 @@ public class Arrays{
 
         // 2D Array
 
-        int[][] arr = new int[3][3]; 
+        // int[][] arr = new int[3][3]; 
         // OR
         // int[][] arr2 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         // OR
