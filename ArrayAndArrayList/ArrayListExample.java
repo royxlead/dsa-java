@@ -1,3 +1,5 @@
+package ArrayAndArrayList;
+
 import java.util.*; 
 
 public class ArrayListExample {

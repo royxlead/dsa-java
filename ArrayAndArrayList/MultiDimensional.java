@@ -1,3 +1,5 @@
+package ArrayAndArrayList;
+
 import java.util.ArrayList; // Importing ArrayList class from java.util package
 
 public class MultiDimensional {
