@@ -1,6 +1,6 @@
 package Sorting.InsertionSort;
 
-public class sort {
+public class Sort {
     
     static void sort(int[] arr){
         int n = arr.length;
