@@ -29,15 +29,36 @@ public class Main {
         // bst.display();
         // scanner.close();
         
-        Traversals.Node root = new Traversals.Node(1);
-        root.left = new Traversals.Node(2);
-        root.right = new Traversals.Node(3);
+        // Traversals.Node root = new Traversals.Node(1);
+        // root.left = new Traversals.Node(2);
+        // root.right = new Traversals.Node(3);
 
-        System.out.println("In-order Traversal:");
-        Traversals.inOrder(root);
-        System.out.println("\nPre-order Traversal:");
-        Traversals.preOrder(root);
-        System.out.println("\nPost-order Traversal:");
-        Traversals.postOrder(root);
+        // System.out.println("In-order Traversal:");
+        // Traversals.inOrder(root);
+        // System.out.println("\nPre-order Traversal:");
+        // Traversals.preOrder(root);
+        // System.out.println("\nPost-order Traversal:");
+        // Traversals.postOrder(root);
+
+        AVL avl = new AVL();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter numbers to insert into the AVL tree (type 'done' to finish):");
+        while (scanner.hasNext()) {
+            if (scanner.hasNextInt()) {
+                int value = scanner.nextInt();
+                avl.insert(value);
+            } else {
+                String input = scanner.next();
+                if (input.equalsIgnoreCase("done")) {
+                    break;
+                } else {
+                    System.out.println("Invalid input. Please enter a number or 'done'.");
+                }
+            }
+        }
+        System.out.println("AVL tree created:");
+        avl.inorder();
+        scanner.close();
+        
     }
 }
