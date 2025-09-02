@@ -1,40 +1,62 @@
 # Java DSA Practice
 
-This repository contains my implementations of **Data Structures and Algorithms (DSA)** in **Java**, built as part of my practice and learning journey. It covers fundamental concepts used in computer science, competitive programming, and software development.
+A Java-based collection of **Data Structures & Algorithms (DSA)** implementations, organized by topic and designed to support your journey in problem-solving, coding interviews, and software development.
 
-## 📌 Topics Covered
+## Topics Covered
 
-* **Arrays and ArrayList** – basic operations, dynamic arrays
-* **Searching** – Linear Search, Binary Search
-* **Sorting** – Bubble Sort, Insertion Sort, Merge Sort, Quick Sort
-* **Recursion & Backtracking** – recursive problem solving, backtracking examples
-* **Strings** – manipulation, pattern problems
-* **Linked Lists** – singly, doubly, and operations
-* **Stacks & Queues** – stack operations, queue implementations
-* **Trees** – binary trees, traversal methods, recursion on trees
-* **Object-Oriented Programming (OOP)** – classes, objects, and principles in practice
-* **Time and Space Complexity** – analyzing efficiency of algorithms
-* **Tic-Tac-Toe** – simple game implementation to apply OOP + logic
+* **Arrays & ArrayList** – Dynamic arrays and common operations.
+* **Searching** – Linear Search, Binary Search.
+* **Sorting** – Bubble Sort, Insertion Sort, Merge Sort, Quick Sort.
+* **Recursion & Backtracking** – Foundational recursive patterns and backtracking exercises.
+* **Strings** – String manipulation and pattern-based challenges.
+* **Linked Lists** – Singly and doubly linked list implementations.
+* **Stacks & Queues** – Stack operations and queue implementations.
+* **Trees** – Binary tree structures with traversal techniques.
+* **Object-Oriented Programming (OOP)** – Applied via classes, objects, and principles in Java.
+* **Time & Space Complexity** – Code-level considerations for performance.
+* **Tic-Tac-Toe Game** – A mini-application blending OOP with game logic.
+  ([GitHub][1])
 
-## 🚀 Purpose
+## Purpose
 
-This repo was created to:
+This repository was created to help you:
 
-* Strengthen **problem-solving skills** in Java.
-* Build a solid foundation in **algorithms & data structures** for AI/ML and software engineering.
-* Serve as a personal reference for coding interviews and academic projects.
+* Build strong problem-solving skills in **Java**.
+* Establish a solid foundation in DSA—useful for **AI/ML**, software engineering, and coding interviews.
+* Maintain a personal reference of implemented algorithms and structures.
+  ([GitHub][1])
 
-## 🛠️ Tech Stack
+## Tech Stack & Structure
 
 * **Language:** Java (100%)
-* **IDE/Tools:** VS Code
+* **IDE:** VS Code (or your IDE of choice)
+* The project is organized into topic-wise folders, each containing relevant Java implementations and examples.
+  ([GitHub][1])
 
-## 📂 Structure
+## How to Use
 
-Each folder corresponds to a **topic/lecture** and contains Java implementations with examples.
+1. **Clone the Repository:**
 
-## 🔮 Future Improvements
+   ```bash
+   git clone https://github.com/royxlead/dsa-java.git
+   cd dsa-java
+   ```
 
-* Add unit tests for algorithm correctness.
-* Include complexity analysis in code comments.
-* Expand into graph algorithms and dynamic programming.
+2. **Explore Topics:**
+   Navigate through the folders like `Sorting`, `Trees`, `StacksAndQueue`, etc., and open the Java files for each topic.
+
+3. **Run Code Examples:**
+
+   * If using VS Code or similar IDE, simply run or debug the Java files.
+   * Alternatively, from the terminal:
+
+     ```bash
+     javac <TopicFolder>/<FileName>.java
+     java <TopicFolder>.<FileName>
+     ```
+
+## Future Enhancements
+
+* Add **unit tests** (e.g. using JUnit) to verify correctness.
+* Include **time and space complexity** notes in comments.
+* Expand the repository with **graph algorithms** and **dynamic programming** topics.
